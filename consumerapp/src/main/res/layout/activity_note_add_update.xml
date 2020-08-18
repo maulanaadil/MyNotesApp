@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/title"
+                android:background="@android:color/white"
                 android:inputType="textCapSentences"
                 android:maxLines="1"/>
 
@@ -42,6 +43,7 @@
                 android:layout_height="258dp"
                 android:gravity="start|top"
                 android:hint="@string/description"
+                android:background="@android:color/white"
                 android:inputType="textCapSentences"
                 android:maxLines="1" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -51,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/submit"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@android:color/holo_red_dark"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
